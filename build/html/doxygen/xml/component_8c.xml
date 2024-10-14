@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="component_8c" kind="file" language="C++">
+    <compoundname>component.c</compoundname>
+    <includes refid="component_8h" local="yes">component.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>component.c</label>
+        <link refid="component_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>component.h</label>
+        <link refid="component_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="component_8c_1a3a044d75f29befe48582ba518754ef68" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int USED_COMPONENT_variable</definition>
+        <argsstring></argsstring>
+        <name>USED_COMPONENT_variable</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/component.c" line="8" column="5" bodyfile="src/component.c" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="component_8c_1a240dbf1c6dfc6e14dce034dfdd269959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void USED_COMPONENT_FirstFunction</definition>
+        <argsstring>(void)</argsstring>
+        <name>USED_COMPONENT_FirstFunction</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>First function description. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/component.c" line="12" column="6" bodyfile="src/component.c" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="component_8c_1aee7fbbb15a3f0c9ac867357afd852cf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void USED_COMPONENT_SecondFunction</definition>
+        <argsstring>(void)</argsstring>
+        <name>USED_COMPONENT_SecondFunction</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Second function description. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/component.c" line="19" column="6" bodyfile="src/component.c" bodystart="19" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Implementation for the component module. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="component_8h" kindref="compound">component.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="component_8c_1a3a044d75f29befe48582ba518754ef68" kindref="member">USED_COMPONENT_variable</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="component_8c_1a240dbf1c6dfc6e14dce034dfdd269959" kindref="member">USED_COMPONENT_FirstFunction</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="component_8c_1a3a044d75f29befe48582ba518754ef68" kindref="member">USED_COMPONENT_variable</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="component_8c_1aee7fbbb15a3f0c9ac867357afd852cf8" kindref="member">USED_COMPONENT_SecondFunction</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="component_8c_1a3a044d75f29befe48582ba518754ef68" kindref="member">USED_COMPONENT_variable</ref><sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/component.c"/>
+  </compounddef>
+</doxygen>

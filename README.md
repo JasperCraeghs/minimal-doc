@@ -38,7 +38,7 @@ See the rendered version of the documentation at [https://minimalsphinx.readthed
 	$ pip install -r requirements.txt
 	```
 
-	This will install all required packages, including `sphinx` itself and the `furo` Sphinx theme.
+	This will install all required packages, including `sphinx` and `breathe`.
 
 3. Initiate sphinx
 

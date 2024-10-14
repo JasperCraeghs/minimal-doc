@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.8" xml:lang="en-US">
+  <compound refid="component_8c" kind="file"><name>component.c</name>
+    <member refid="component_8c_1a3a044d75f29befe48582ba518754ef68" kind="variable"><name>USED_COMPONENT_variable</name></member>
+    <member refid="component_8c_1a240dbf1c6dfc6e14dce034dfdd269959" kind="function"><name>USED_COMPONENT_FirstFunction</name></member>
+    <member refid="component_8c_1aee7fbbb15a3f0c9ac867357afd852cf8" kind="function"><name>USED_COMPONENT_SecondFunction</name></member>
+  </compound>
+  <compound refid="component_8h" kind="file"><name>component.h</name>
+    <member refid="component_8h_1a240dbf1c6dfc6e14dce034dfdd269959" kind="function"><name>USED_COMPONENT_FirstFunction</name></member>
+    <member refid="component_8h_1aee7fbbb15a3f0c9ac867357afd852cf8" kind="function"><name>USED_COMPONENT_SecondFunction</name></member>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+</doxygenindex>

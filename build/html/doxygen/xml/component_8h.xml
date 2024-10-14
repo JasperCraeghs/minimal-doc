@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="component_8h" kind="file" language="C++">
+    <compoundname>component.h</compoundname>
+    <includedby refid="component_8c" local="yes">component.c</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>component.c</label>
+        <link refid="component_8c"/>
+      </node>
+      <node id="1">
+        <label>component.h</label>
+        <link refid="component_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="component_8h_1a240dbf1c6dfc6e14dce034dfdd269959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void USED_COMPONENT_FirstFunction</definition>
+        <argsstring>(void)</argsstring>
+        <name>USED_COMPONENT_FirstFunction</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>First function description. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/component.h" line="11" column="6" bodyfile="src/component.c" bodystart="12" bodyend="15" declfile="src/component.h" declline="11" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="component_8h_1aee7fbbb15a3f0c9ac867357afd852cf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void USED_COMPONENT_SecondFunction</definition>
+        <argsstring>(void)</argsstring>
+        <name>USED_COMPONENT_SecondFunction</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Second function description. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/component.h" line="15" column="6" bodyfile="src/component.c" bodystart="19" bodyend="22" declfile="src/component.h" declline="15" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Public API for the component module. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>USED_COMPONENT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USED_COMPONENT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="component_8h_1a240dbf1c6dfc6e14dce034dfdd269959" kindref="member">USED_COMPONENT_FirstFunction</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="component_8h_1aee7fbbb15a3f0c9ac867357afd852cf8" kindref="member">USED_COMPONENT_SecondFunction</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="src/component.h"/>
+  </compounddef>
+</doxygen>
